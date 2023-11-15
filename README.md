@@ -3,10 +3,8 @@
 
 ```
 git init
-
 ```
 ```
 git add test.py
 git add .
-
 ```
