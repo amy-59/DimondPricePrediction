@@ -36,7 +36,8 @@ class DataTransformation:
             
             # Define the custom ranking for each ordinal variable
             cut_categories = ['Fair', 'Good', 'Very Good','Premium','Ideal']
-            color_categories = ['D', 'E', 'F', 'G', 'H', 'I', 'J']
+            #color_categories = ['D', 'E', 'F', 'G', 'H', 'I', 'J']
+            color_categories = ['J', 'I', 'H', 'G', 'F', 'E', 'D']
             clarity_categories = ['I1','SI2','SI1','VS2','VS1','VVS2','VVS1','IF']
             
             logging.info('Pipeline Initiated')
